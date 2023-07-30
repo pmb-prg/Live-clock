@@ -1,0 +1,39 @@
+* {
+    font-family: arial;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    width: 320px;
+    height: 100px;
+    border: solid 6px rgba(255, 255, 255, 0.91);
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    color: rgb(198, 255, 165);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(11, 11, 11, 0.56) 0px 2px 4px 0px, rgba(0, 0, 0, 0.604) 0px 2px 16px 0px;
+}
+
+.time {
+    font-size: 2.8rem;
+    text-shadow: 0 0 11px rgb(0, 255, 38);
+    -webkit-text-stroke: 1px rgb(0, 255, 38);
+}
+
+#am {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-shadow: 0 0 15px white;
+}
